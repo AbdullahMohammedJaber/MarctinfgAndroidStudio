@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+         android:id="@+id/Home_screen_bottom"
+        android:icon="@drawable/home_icon"
+
+         />
+    <item android:title="upload"
+        android:id="@+id/uploadFragment"
+        android:icon="@drawable/ic_cloud_upload_black_24dp"
+
+        />
+    <item android:title="Favorite"
+        android:icon="@drawable/ic_favorite_black_24dp"
+
+        android:id="@+id/Favorite_screen_bottom"/>
+
+    <item android:title="profile"
+        android:icon="@drawable/ic_user"
+        android:id="@+id/Setting_screen_bottom"/>
+</menu>

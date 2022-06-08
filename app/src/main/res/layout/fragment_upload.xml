@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:de.hdodenhof="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="229dp">
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:layout_width="150dp"
+               android:layout_height="150dp"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentEnd="true"
+               android:layout_alignParentBottom="true"
+               android:layout_gravity="center_horizontal"
+               android:id="@+id/imageProd"
+               android:layout_marginStart="130dp"
+               android:layout_marginTop="30dp"
+               android:layout_marginEnd="130dp"
+               android:layout_marginBottom="30dp"
+               android:src="@drawable/logo" />
+
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentEnd="true"
+               android:layout_alignParentBottom="true"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/border_botom"
+              android:id="@+id/openCamera"
+               android:layout_marginStart="200dp"
+               android:layout_marginTop="125dp"
+               android:layout_marginEnd="130dp"
+               android:layout_marginBottom="30dp"
+               android:src="@drawable/ic_camera_alt_black_24dp" />
+       </FrameLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+        <LinearLayout
+            android:orientation="horizontal"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/nameProduct"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+
+                android:background="@drawable/border_botom"
+                android:hint="name product"
+                android:inputType="text"
+                android:padding="10dp"
+
+                android:letterSpacing="0.1"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/priceProduct"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:padding="10dp"
+                android:paddingTop="30dp"
+                android:background="@drawable/border_botom"
+                android:hint="price product"
+                android:inputType="number"
+                android:letterSpacing="0.1"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/desProduct"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:padding="10dp"
+                android:paddingTop="30dp"
+                android:background="@drawable/border_botom"
+                android:hint="descreption product"
+                android:inputType="text"
+                android:letterSpacing="0.1"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addProd"
+        android:layout_width="344dp"
+        android:layout_height="66dp"
+
+        android:layout_margin="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_botom"
+        android:text="Upload"
+        android:textColor="#040303"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp" />
+
+
+</LinearLayout>
+
+
